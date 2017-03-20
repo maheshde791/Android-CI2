@@ -21,6 +21,10 @@ android {
       applicationId 'com.dicedmelon.example.android'
     }
   }
+  lintOptions
+		{
+			abortOnError false
+		}	
 
   buildTypes {
     debug {

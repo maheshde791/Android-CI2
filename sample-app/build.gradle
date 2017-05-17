@@ -33,7 +33,15 @@ android {
       testCoverageEnabled true
     }
   }
-  
+   signingConfigs {
+        release {
+            storeFile file("release.keystore")
+            storePassword "******"
+            keyAlias "******"
+            keyPassword "******"
+        }
+    }
+
   buildTypes {
         release {
             signingConfig signingConfigs.release

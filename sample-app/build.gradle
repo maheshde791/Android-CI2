@@ -33,6 +33,13 @@ android {
       testCoverageEnabled true
     }
   }
+  
+  buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
 
   dataBinding {
     enabled = true

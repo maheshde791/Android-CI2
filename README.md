@@ -7,6 +7,8 @@ projects.
 
 # Unit tests coverage reports
 
+
+
 Codecov parses uploaded test coverage reports but your project is required to generate them first.
 You can use [jacoco-android-gradle-plugin](https://github.com/arturdm/jacoco-android-gradle-plugin)
 to create appropriate gradle tasks and run this command to generate the reports:
